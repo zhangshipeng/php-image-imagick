@@ -1,0 +1,39 @@
+{
+  "name": "zhangshipeng/php-image-imagick",
+  "description": "Image manipulation library for PHP with ImageMagick driver",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "zhangshipeng",
+      "email": "2642971654@qq.com"
+    }
+  ],
+  "keywords": [
+    "image",
+    "imagick",
+    "image-processing",
+    "thinkphp"
+  ],
+  "require": {
+    "ext-imagick": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.5.*"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "autoload": {
+    "psr-4": {
+      "zhangshipeng\\image\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
