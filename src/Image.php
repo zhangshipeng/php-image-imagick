@@ -9,7 +9,7 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think;
+namespace zhangshipeng;
 
 use zhangshipeng\image\Exception as ImageException;
 use zhangshipeng\image\gif\Gif;
